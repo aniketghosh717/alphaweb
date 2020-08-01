@@ -1,0 +1,131 @@
+nav li{
+    text-decoration: none;
+  
+    display:inline-block;
+  
+    padding: 4px 20px;
+    
+   
+    
+    
+}
+
+nav li a{
+   
+    color: white;
+   
+    text-decoration: none;
+
+}
+
+nav li :hover{
+    color: #00cc33;
+    
+}
+
+nav{  
+    
+    float:right;
+    
+}
+
+html{
+      background-image: url(index.jpeg);
+    background-color: #111109;
+    background-blend-mode:hard-light;
+    font-family: 'Lora', serif;
+    color:white;
+}
+
+img {
+  position: fixed;
+  width:80px;
+  border-radius: 50%;
+}
+
+
+nav button{
+    background-color: transparent;
+    color: white;
+    padding:5px 15px;
+}
+
+
+form{
+   
+    position: fixed;
+    left:70%;
+    top:30%;
+    text-align:center;
+    color:white;
+
+    }
+
+
+h1{
+     top:30%;
+    left:12%;
+    font-size: 35px;
+    font-family: cursive;
+  
+   
+    position:absolute;
+}
+
+
+input[type="email"],input[type="text"],input[type="password"],input[type="submit"]{
+    border-color: #00cc33;
+    border-radius: 20px;
+    display:block;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,.90);
+    text-align: center;
+    padding: 20px 70px;
+    margin: 10px;
+    color: white;
+    position: relative;
+   
+}
+
+input[type="submit"]{
+    position: relative;
+     padding: 10px 10px;
+    width:150px;
+    align-self: center;
+    color:white;
+}
+h1 a{
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+h1 a:hover{
+    color:#00cc33;
+}
+    
+
+
+#signmsg {
+    position: absolute;
+    top:40%;
+    left:23%;
+    font-size: 55px;
+    font-family: cursive;
+    
+
+}
+#signmsg a{
+    
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+#signmsg a:hover {
+    color:#00cc33;
+    
+}
+
+
+   

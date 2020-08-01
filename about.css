@@ -1,0 +1,71 @@
+nav li{
+    text-decoration: none;
+  
+    display:inline-block;
+  
+    padding: 4px 20px;
+    
+   
+    
+    
+}
+
+nav li a{
+   
+    color: white;
+   
+    text-decoration: none;
+
+}
+
+nav li :hover{
+    color: #00cc33;
+    
+}
+
+nav{  
+    
+    float:right;
+    
+}
+
+html{
+    background-image: url(index.jpeg);
+    background-color: #111109;
+    background-blend-mode:darken;
+    font-family: 'Lora', serif;
+    color:white;
+}
+
+img {
+  position: fixed;
+  width:80px;
+  border-radius: 50%;
+}
+nav button{
+    background-color: transparent;
+    color: white;
+    padding:5px 15px;
+}
+article{
+    padding: 30px;
+    display: inline-block;
+    text-align: center;
+}
+article p{
+    
+    font-size: 30px;
+    
+}
+article h1{
+    font-family: sans-serif;
+    
+    font-size: 50px;
+}
+
+
+#mode{
+    background-color: transparent;
+    color: white;
+    padding:5px 15px;
+}

@@ -1,0 +1,136 @@
+nav li{
+    text-decoration: none;
+  
+    display:inline-block;
+  
+    padding: 4px 20px;
+    
+   
+    
+    
+}
+
+nav li a{
+   
+    color: white;
+   
+    text-decoration: none;
+
+}
+
+nav li :hover{
+    color: #00cc33;
+    
+}
+
+nav{  
+    
+    float:right;
+    
+}
+
+html{
+    background-image: url(index.jpeg);
+    background-color: #111109;
+    background-blend-mode:hard-light;
+    font-family: 'Lora', serif;
+    color:white;
+    overflow-y: scroll;
+}
+
+img {
+  position: fixed;
+  width:105px;
+  padding: 10px;
+}
+form{
+   
+    position: fixed;
+    left:42.5%;
+    top:20%;
+    text-align:center;
+    color:white;
+
+    
+    
+
+}
+input[type="email"],input[type="text"],input[type="password"],input[type="submit"]{
+    border-color: #00cc33;
+    border-radius: 20px;
+    display:block;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,.90);
+    text-align: center;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    position: relative;
+   
+}
+input[type="submit"]{
+    position: relative;
+    left:13%;
+    width:150px;
+    align-self: center;
+    color:white;
+}
+nav button{
+    background-color: transparent;
+    color: white;
+    padding:5px 15px;
+}
+
+
+#mode{
+    background-color: transparent;
+    color: white;
+    padding:5px 15px;
+}
+form p{
+  font-size: 12px;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    padding-right: 5%;
+    
+}
+
+footer{
+    display:block;
+    position: relative;
+    top:40%;
+}
+form a{
+    padding: 5px;
+
+
+    
+}
+
+.form{
+    animation-name: moveInLeft;
+    animation-duration: 3s;
+}
+
+@keyframes moveInLeft{
+    0%{ 
+        opacity: 0;
+        transform: translateX(-100px);
+
+
+    }
+
+    80%{
+
+    }
+
+    100%{
+        opacity:1;
+
+        transform: translate(0);
+
+
+    }
+}

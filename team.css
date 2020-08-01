@@ -1,0 +1,106 @@
+nav li{
+    text-decoration: none;
+  
+    display:inline-block;
+  
+    padding: 4px 20px;
+    
+   
+    
+    
+}
+
+nav li a{
+   
+    color: white;
+   
+    text-decoration: none;
+
+}
+
+nav li :hover{
+    color: #00cc33;
+    
+}
+
+nav{  
+    float:right;
+    
+}
+
+html{
+    background-image: url(index.jpeg);
+    background-color: #111109;
+    background-blend-mode:hard-light;
+    font-family: 'Lora', serif;
+    color:white;
+}
+
+#logo{
+  position: fixed;
+  width:80px;
+  border-radius: 50%;
+}
+nav button{
+    background-color: transparent;
+    color: white;
+    padding:5px 15px;
+}
+h1{
+    text-align: center;
+}
+article{
+    font-size: 40px;
+    font-family: cursive;
+    padding-top: 40px;
+    text-align: center;
+}
+p{
+    font-size: 45px;
+}
+
+.try{
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+.gallery-container{
+    display:inline;
+
+    top: 180px;;
+    position: relative;
+    left: 30%;
+   
+}
+
+.gallery-slide{
+    display:inline;
+    width:100%;
+    height: 500px;
+   
+
+
+}
+
+#mode{
+    background-color: transparent;
+    color: white;
+    padding:5px 15px;
+}
+
+#prevbutton{
+    position: absolute;
+    left:25%;
+    
+}
+
+#nextbutton{
+   
+    position: absolute;
+    right:28%;
+   
+    
+}
+

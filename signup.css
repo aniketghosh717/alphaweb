@@ -1,0 +1,68 @@
+nav li{
+    text-decoration: none;
+  
+    display:inline-block;
+  
+    padding: 4px 20px;
+    
+   
+    
+    
+}
+
+nav li a{
+   
+    color: white;
+   
+    text-decoration: none;
+
+}
+
+nav li :hover{
+    color: #00cc33;
+    
+}
+
+nav{  
+    
+    float:right;
+    position: relative;
+    
+}
+
+html{
+    background-image: url(index.jpeg);
+    background-color: #111109;
+    background-blend-mode: overlay;
+    font-family: 'Lora', serif;
+    color:white;
+}
+
+
+nav button{
+    background-color: transparent;
+    color: white;
+    padding:5px 15px;
+}
+
+
+#signmsg {
+    position: absolute;
+    top:40%;
+    left:23%;
+    font-size: 55px;
+    font-family: cursive;
+    
+
+}
+#signmsg a{
+    
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+#signmsg a:hover {
+    color:#00cc33;
+    
+}
